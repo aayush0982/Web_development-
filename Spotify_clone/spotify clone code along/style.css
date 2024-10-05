@@ -1,0 +1,493 @@
+:root {
+    --a: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    /* background-color: black;
+    color: white; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.body {
+    background-color: black;
+}
+
+.hero {
+    display: flex;
+    /* Enable flexbox */
+    gap: 8px;
+    /* Space between children */
+    height: 100vh;
+    /* Full viewport height */
+    width: 100%;
+    /* Full width */
+    align-items: center;
+}
+
+.left1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 24vw;
+    background-color: rgb(18, 18, 18);
+    height: 20vh;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+    padding: 12px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 24px;
+    font-weight: 550;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 550;
+    /* opacity: .85; */
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 550;
+    /* opacity: .65; */
+}
+
+.left2 {
+    box-sizing: border-box;
+    width: 24vw;
+    height: 77vh;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border-radius: 8px;
+    /* margin-top: 8px; */
+    margin-left: 8px;
+    /* margin-bottom: 4px; */
+    padding: 12px;
+}
+
+.libimg {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 550;
+    /* opacity: .65; */
+}
+
+.plus {
+    opacity: .8;
+}
+
+.libheading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playtitle> :nth-child(2) {
+    font-size: 12px;
+    opacity: .6;
+}
+
+.playtitle> :first-child {
+    font-weight: 550;
+}
+
+.playtitle {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.playlist {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.playlist:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+.allplay>ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-top: 32px;
+    max-height: 64vh;
+    overflow-y: scroll;
+    padding-right: 16px;
+    /* Adds space between content and scrollbar */
+}
+
+
+/* Remove scroll arrows (WebKit browsers) */
+.allplay>ul::-webkit-scrollbar-button {
+    display: none;
+    /* Hides the up and down arrows */
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+.allplay>ul::-webkit-scrollbar {
+    width: 8px;
+    /* Width of the scroll bar */
+}
+
+.allplay>ul::-webkit-scrollbar-track {
+    background: rgb(18, 18, 18);
+    /* Track color */
+}
+
+.allplay>ul::-webkit-scrollbar-thumb {
+    background-color: rgb(100, 100, 100);
+    /* Scroll thumb color */
+    border-radius: 8px;
+    /* Rounded corners */
+    border: 2px solid rgb(18, 18, 18);
+    /* Creates space around the thumb */
+}
+
+.allplay>ul>li {
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.right {
+    box-sizing: border-box;
+    width: 75vw;
+    height: 98.5vh;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    /* margin-bottom: 4px; */
+}
+
+.arrow {
+    display: flex;
+    gap: 8px;
+}
+
+.notification {
+    background-color: rgb(33, 33, 33);
+    padding: 8px;
+    border-radius: 24px;
+    max-width: 24px;
+    align-items: center;
+}
+
+.pb {
+    display: flex;
+    gap: 16px;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+
+.album {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    max-height: 70vh;
+    overflow-y: scroll;
+    /* Responsive grid */
+    gap: 20px;
+    /* Space between cards */
+    padding: 20px;
+}
+
+.album::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height of the scrollbar (for horizontal scroll) */
+}
+
+.album::-webkit-scrollbar-track {
+    background-color: rgb(18, 18, 18); /* Track color */
+    border-radius: 16px; /* Rounded corners for the track */
+    margin: 10px; /* Add some space at the top and bottom */
+}
+
+.album::-webkit-scrollbar-thumb {
+    background-color: rgb(100, 100, 100); /* Scroll thumb color */
+    border-radius: 16px; /* Rounded corners for the thumb */
+    border: 2px solid rgb(18, 18, 18); /* Creates space around the thumb */
+}
+
+.album::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(150, 150, 150); /* Darker thumb color on hover */
+}
+
+/* Hide the up/down scrollbar buttons */
+.album::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none; /* This hides the scrollbar buttons */
+}
+
+/* Hide corner when both horizontal and vertical scrollbars are present */
+.album::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/* Scrollbar styling for Firefox */
+.album {
+    scrollbar-width: thin; /* Make scrollbar thinner in Firefox */
+    scrollbar-color: rgb(100, 100, 100) rgb(18, 18, 18); /* Thumb color | Track color for Firefox */
+}
+
+
+
+
+.player {
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+    background-color: rgb(28, 28, 28);
+    border-radius: 8px;
+    padding: 8px;
+    height: 12vh;
+    margin-top: 8px;
+}
+
+
+.altitle> :nth-child(1) {
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.altitle> :nth-child(2) {
+    font-size: 12px;
+    /* font-weight: 550; */
+    opacity: .8;
+}
+
+.playbuttons {
+    display: flex;
+    gap: 16px;
+}
+
+.time {
+    font-size: 14px;
+    opacity: .8;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.alcover {
+    width: 220px;
+    /* border: 1px solid white; */
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.bigrec {
+    height: 4px;
+    width: 400px;
+    /* border: 1px solid white; */
+    border-radius: 4px;
+    background-color: rgb(158, 156, 156);
+    cursor: pointer;
+}
+
+.smallrec {
+    height: 4px;
+    width: 250px;
+    /* border: 1px solid white; */
+    border-radius: 4px;
+    background-color: rgb(143, 142, 142);
+}
+
+.musiccontrol {
+    /* border: 1px solid white; */
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    align-items: center;
+}
+
+.bs {
+    width: 80px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: rgb(158, 156, 156);
+    cursor: pointer;
+}
+
+.ss {
+    width: 40px;
+    height: 4px;
+    background-color: rgb(143, 142, 142);
+}
+
+.volume {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    position: relative;
+    background-color: white;
+    height: 8px;
+    width: 8px;
+    border-radius: 16px;
+    bottom: 2px;
+    left: 120px;
+    transition: left 0.2s;
+}
+
+.circle2 {
+    position: relative;
+    background-color: white;
+    height: 6px;
+    width: 6px;
+    border-radius: 16px;
+    bottom: 1px;
+    left: 20px;
+    transition: left 0.2s;
+}
+
+#play {
+    cursor: pointer;
+}
+
+
+/* given by gpt {*/
+/* Track styling */
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 80px;
+    /* Provided width */
+    height: 4px;
+    /* Provided height */
+    border-radius: 4px;
+    /* Provided border-radius */
+    background-color: rgb(158, 156, 156);
+    /* Light grey bar */
+    cursor: pointer;
+    outline: none;
+}
+
+/* Thumb (white circle) */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    /* Adjust as per requirement */
+    height: 12px;
+    /* Adjust as per requirement */
+    background: white;
+    /* White thumb */
+    border-radius: 50%;
+    /* Make it a circle */
+    cursor: pointer;
+    margin-top: -4px;
+    /* Center thumb vertically */
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: white;
+    /* White thumb */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="range"]::-ms-thumb {
+    width: 12px;
+    height: 12px;
+    background: white;
+    /* White thumb */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Covered part of the track (white before the thumb) */
+input[type="range"]::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, white 0%, white var(--value, 0%), rgb(158, 156, 156) var(--value, 0%), rgb(158, 156, 156) 100%);
+    height: 4px;
+    border-radius: 4px;
+}
+
+input[type="range"]:hover::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, white 0%, white var(--value, 0%), rgb(158, 156, 156) var(--value, 0%), rgb(158, 156, 156) 100%);
+}
+
+/* } code ended given by gpt */
+
+.desc {
+    font-size: 14px;
+    opacity: .6;
+}
+
+.card {
+    /* border: 1px solid white; */
+    padding: 8px;
+    width: 200px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 4px; */
+    background-color: rgb(26, 25, 25);
+    border-radius: 8px;
+    cursor: pointer;
+    box-sizing: border-box
+}
+
+.card>h4 {
+    margin-top: 8px;
+}
+
+.card:hover {
+    background-color: rgb(33, 33, 33);
+    --a: 1;
+    transition: .4s;
+}
+
+.inner_play {
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    height: 40px;
+    width: 40px;
+    opacity: var(--a);
+}
