@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
+}
+
+.heading {
+    font-size: 48px;
+}
+
+.days {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.days>:nth-child(1) {
+    font-size: 48px;
+    font-weight: 550;
+}
+
+.days>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 450;
+}
+
+
+.hours {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.hours>:nth-child(1) {
+    font-size: 48px;
+    font-weight: 550;
+}
+
+.hours>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 450;
+}
+
+.minutes {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.minutes>:nth-child(1) {
+    font-size: 48px;
+    font-weight: 550;
+}
+
+.minutes>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 450;
+}
+
+.seconds {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.seconds>:nth-child(1) {
+    font-size: 48px;
+    font-weight: 550;
+}
+
+.seconds>:nth-child(2) {
+    font-size: 24px;
+    font-weight: 450;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px;
+}
+
+body{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    align-items: center;
+}
