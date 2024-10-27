@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    padding: 8px;
+    background-image: linear-gradient( 89.5deg,  rgba(131,204,255,1) 0.4%, rgba(66,144,251,1) 100.3% );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    width: 520px;
+    height: fit-content;
+    background-color: white;
+}
+
+.card{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: fit-content;
+    display: flex;
+    /* align-items: center; */
+    gap: 32px;
+    padding: 16px;
+    padding-top: 32px;
+}
+
+.gitdp{
+    border-radius: 240px;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.username{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bio{
+    font-size: 12px;
+    opacity: .6;
+}
+
+.u{
+    display: flex;
+    flex-direction: column;
+}
+
+.userdesc{
+    font-size: 14px;
+}
+
+.icons{
+    list-style-type: none;
+    font-size: 12px;
+    display: flex;
+    gap: 32px;
+}
+
+.icons>li{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.search{
+    /* border: 1 px solid black; */
+    width: 520px;
+    height: 32px;
+    outline: none;
+    border: none;
+    padding-left: 8px;
+}
+
+.repos{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    row-gap: 8px;
+}
+
+.repo{
+    /* border: 1px solid black; */
+    padding: 8px;
+    border-radius: 4px;
+    background-color: rgb(255, 46, 99);
+    color: white;
+    font-weight: 550;
+    font-size: 12px;
+    
+}
+
+a {
+    text-decoration: none;
+  }
+
+.ft{
+    font-weight: 550;
+}
+
+.line{
+    width: 505px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* margin-bottom: 8px; */
+    background-color: black;
+    height: 2px;
+    opacity: .2;
+}
