@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="display">
+            <p class="password">82bdsah676&^V6</p>
+            <img class="copy" src="copy.png" alt="copy"  height="12px" width="12px">
+        </div>
+
+        <div class="options">
+            <div class="plen">
+                <label for="len">Password Length</label>
+                <input class="pleninput" value="15" type="number" min="2" max="30" />
+            </div>
+            <div class="uc">
+                <label for="upper">Uppercase Letters</label>
+                <input class="uccheck" type="checkbox">
+            </div>
+            <div class="lc">
+                <label for="lower">Lowercase Letters</label>
+                <input class="lccheck" type="checkbox">
+            </div>
+            <div class="number">
+                <label for="number">Numbers</label>
+                <input class="numcheck" type="checkbox">
+            </div>
+            <div class="sp">
+                <label for="symbol">Symbols</label>
+                <input class="spcheck" type="checkbox">
+            </div>
+        </div>
+
+        <div class="generatebtn">
+            Generate Password
+        </div>
+
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
