@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card ,.cardcontainer{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 32px;
+    width: 250px;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.card{
+    border: none;
+    row-gap: 48px;
+}
+
+.cityinput {
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 16px;
+    width: 200px;
+    border: none;
+    outline: none;
+    padding-left: 4px;
+    height: 24px;
+}
+
+.temp {
+    /* border: 1px solid black; */
+    padding: 8px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* row-gap: 8px; */
+}
+
+.cityname {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.temph {
+    font-size: 32px;
+    margin-top: 16px;
+}
+
+.climate {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.climatetype {
+    font-size: 12px;
+}
+
+.extras {
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    padding: 16px;
+    width: fit-content;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 24px;
+    column-gap: 32px;
+}
+
+.smallh {
+    font-size: 12px;
+}
+
+.ftext {
+    font-size: 10px;
+    font-weight: 550;
+}
+
+.bigh {
+    font-size: 20px;
+}
+
+.fp1,
+.hup1,
+.wp1,
+.aqp1 {
+    display: flex;
+    align-items: first baseline;
+    gap: 2px;
+    /* border: 1px solid black; */
+}
+
+.fp1, .wcp1{
+    align-items: flex-start;
+}
+
+.feelslike,
+.humidity,
+.wind,
+.aqi {
+    /* border: 1px solid black; */
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(4px);
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4px;
+}
+
+.low-uv {
+    color: green;
+}
+
+.moderate-uv {
+    color: yellow;
+}
+
+.high-uv {
+    color: orange;
+}
+
+.very-high-uv {
+    color: red;
+}
+
+.low-heat {
+    color: rgb(23, 94, 237);
+}
+
+.moderate-heat {
+    color: yellow;
+}
+
+.high-heat {
+    color: red;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
