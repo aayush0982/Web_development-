@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.add{
+  /* border: 1px solid black; */
+  border-radius: 4px;
+  padding: 2px 8px;
+  color: white;
+  font-weight: 550;
+}
+
+.input{
+  width: 600px;
+  outline: none;
+  border: none;
+}
+
+.t{
+  /* border: 1px solid black; */
+  padding-left: 4px;
+  padding-left: 4px;
+  font-size: 14px;
+}
+
+.todoel{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-top: 4px;
+}
+
+.linetodo{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 76vh;
+}
+
+.h{
+  font-size: 14px;
+  opacity: .6;
+  /* margin-left: 4px; */
+  width: 453px;
+}
+
+.textcontainer{
+  display: flex;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* align-items: center; */
+}
+
+.titleinp{
+  margin-top: 8px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+
+.title{
+  /* border: 1px solid black; */
+  width: 200px;
+  /* max-width: 200px; */
+}
+
+.line{
+  width: 230px;
+  margin-top: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.apph{
+  font-size: 32px;
+  font-weight: 550;
+}
+
+.sidebar{
+  row-gap: 16px;
+  padding: 8px;
+}
+
+.main{
+  display: flex;
+  gap: 24px;
+}
+
+/* .pending_todos{
+  width: 74vh;
+  overflow-x: auto;
+  border: 1px solid black;
+} */
