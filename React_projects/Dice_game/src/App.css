@@ -1,0 +1,180 @@
+.herotext1{
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.playbtn{
+  background-color: black;
+  font-size: 16px;
+  font-weight: 550;
+  color: white;
+  border: 2px solid transparent;
+  outline: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  width: 160px;
+  cursor: pointer;
+  transition: .3s background ease-in;
+  box-sizing: border-box;
+}
+
+.playbtn:hover{
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  transition: .2s background ease-in;
+
+}
+
+.herotext{
+  /* border: 1px solid black; */
+  width: fit-content;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: flex-end;
+  justify-content: center;
+  height: fit-content;
+}
+
+.herosection{
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  height: 100vh;
+}
+
+.himg{
+  height: 522;
+  width: 649px;
+}
+
+.scnum{
+  font-size: 100px;
+  /* line-height: 150px; */
+  font-weight: 550;
+}
+
+.sctext{
+  font-size: 24px;
+  /* line-height: 36px; */
+}
+
+.score{
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  /* row-gap: -890px; */
+  align-items: center;
+  max-width: 150px;
+  margin-left: 8px;
+  /* border: 1px solid; */
+}
+
+.dice{
+  border: 2px solid black;
+  width: 72px;
+  height: 72px;
+  padding: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.dice.active{
+  background-color: black;
+  color: white;
+}
+
+.dicenumchoice{
+  padding: 8px;
+  margin-right: 16px;
+  display: flex;
+  gap: 24px;
+}
+
+.upperbar{
+  /* padding: 16px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dimg{
+  height: 250px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.diceimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.resbtn{
+  padding: 10px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid transparent;
+  cursor: pointer;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.rulebtn{
+  padding: 10px 16px;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  width: fit-content;
+  outline: none;
+  border: 2px solid black;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.rules{
+  padding: 16px;
+  background-color: rgba(248, 215, 250, 0.63);
+  width: fit-content;
+  border-radius: 8px;
+  opacity: 0;
+}
+
+.visible{
+  opacity: 1;
+}
+
+.subtext{
+  font-size: 14px;
+  margin-top: 16px;
+  line-height: 20px;
+}
+
+.btns{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.lowerpart{
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  /* border: 1px solid; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
