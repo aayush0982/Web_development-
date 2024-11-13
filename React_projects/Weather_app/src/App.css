@@ -1,0 +1,218 @@
+nav {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 550;
+}
+
+.cityip {
+  width: 600px;
+  font-size: 16px;
+  padding-left: 24px;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 24px;
+}
+
+.c_rigthpart {
+  /* border: 1px solid; */
+  background-color: transparent;
+  padding: 8px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.c_name {
+  background-color: transparent;
+  font-size: 28px;
+  font-weight: 550;
+}
+
+.curr_date {
+  background-color:transparent;
+  font-size: 12px;
+  opacity: .6;
+  margin-top: -10px;
+  width: fit-content;
+}
+
+.curr_temp {
+  background-color: transparent;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 48px;
+}
+
+.c_leftpart{
+  background-color: transparent;
+  height: fit-content;
+  width: fit-content;
+}
+
+.curr_winfo{
+  background-color: rgba(255, 255, 255, 0.1);
+  /* margin-left: 16px; */
+  /* margin-top: 32px; */
+  display: flex;
+  /* border: 1px solid; */
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  width: 257px;
+  height: 226px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.wicon{
+  background-color: transparent;
+}
+
+.h_time{
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 550;
+  text-align: center;
+  /* opacity: .6; */
+}
+
+.h_temp{
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.h_card{
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 226px;
+  width: 88px;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 28px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.h_f_container{
+  display: flex;
+  gap: 32px;
+}
+
+.h_heading{
+  font-size: 12px;
+  opacity: .7;
+  margin-bottom: 8px;
+}
+
+.leftup{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px;
+  margin-top: 16px;
+  width: fit-content;
+  box-sizing: border-box;
+  /* border: 1px solid; */
+}
+
+.hourly_weather{
+  padding: 16px;
+  /* border: 1px solid; */
+  box-sizing: border-box;
+}
+
+.otherinfo{
+  height: 180px;
+  width: 226px;
+  padding: 16px;
+  /* border: 1px solid; */
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.transparent{
+  background-color: transparent;
+}
+
+.sm{
+  font-size: 16px;
+  opacity: .7;
+}
+
+.numot{
+  font-size: 56px;
+  font-weight: 550;
+}
+
+.otherinner{
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.descpt{
+  display: flex;
+  flex-direction: column;
+  /* row-gap: -40px; */
+}
+
+.oticon{
+  opacity: .7;
+}
+
+.downleft{
+  display: flex;
+  gap: 30px;
+}
+
+.left{
+  /* border: 1px solid; */
+  width: fit-content;
+}
+
+main{
+  display: flex;
+  gap: 24px;
+}
+
+.sevenw{
+  /* border: 1px solid; */
+  display: flex;
+  /* gap: 64px; */
+  align-items: center;
+  padding: 10px;
+}
+
+.sday, .stemp{
+  font-size: 24px;
+  font-weight: 550;
+  margin-right: 22px;
+}
+
+.sday{
+  width: 145px;
+}
+
+.stemp{
+  width: 80px;
+}
+
+.right{
+  background-color: rgba(255, 255, 255, 0.1);
+  /* border: 1px solid; */
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
